@@ -40,7 +40,7 @@ public class Ital {
 
     @Override
     public String toString() {
-        return nev + ", " + kiszereles + ", " + ar + " Ft";
+        return this.nev + ", " + this.kiszereles + ", " + ar + " Ft";
     }
 
     @Override
@@ -52,7 +52,7 @@ public class Ital {
     }
 
     public static double getArEuroban(){
-        double arEuroban = (double) ar;
+        double arEuroban = (double) this.ar;
         return arEuroban / 300;
     }
 }
