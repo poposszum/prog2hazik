@@ -42,16 +42,16 @@ public class LinearEquation {
     }
 
     public boolean isSolvable(){
-        if (a * d - b * c != 0)
+        if (this.a * this.d - this.b * this.c != 0)
                 return true;
                     else return false;
     }
 
     public double getX(){
-        return (e * d - b *f) / (a * d - b * c);
+        return (this.e * this.d - this.b * this.f) / (this.a * this.d - this.b * this.c);
     }
 
     public double getY(){
-        return (a * f - e * c) / (a * d - b * c);
+        return (this.a * this.f - this.e * this.c) / (this.a * this.d - this.b * this.c);
     }
 }
