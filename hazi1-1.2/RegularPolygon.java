@@ -63,12 +63,12 @@ public class RegularPolygon {
     }
 
     public double getArea(){
-        return 0.25 * n * Math.pow(side,2) * 1 / Math.tan(3.14 / n);
+        return 0.25 * this.n * Math.pow(side,2) * 1 / Math.tan(3.14 / this.n);
     }
 
     @Override
     public String toString() {
-        return "Az alábbi sokszögnek " + n + " oldala van, melyeknek egyenként a hosszúsága " + side + " egység.";
+        return "Az alábbi sokszögnek " + this.n + " oldala van, melyeknek egyenként a hosszúsága " + side + " egység.";
     }
 }
 
