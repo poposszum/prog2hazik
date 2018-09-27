@@ -24,20 +24,20 @@ public class QuadraticEquation {
     }
 
     public int getDiscriminant(){
-        return (int) (Math.pow(b,2) - 4 * a * c);
+        return (int) (Math.pow(this.b,2) - 4 * this.a * this.c);
     }
 
     public double getRoot1(){
         if (getDiscriminant() < 0)
                 return 0;
-            else    return ((-b + Math.sqrt(getDiscriminant())) / (2 * a));
+            else    return ((-this.b + Math.sqrt(getDiscriminant())) / (2 * this.a));
 
     }
 
     public double getRoot2(){
         if (getDiscriminant() < 0)
                 return  0;
-            else return ((-b - Math.sqrt(getDiscriminant())) / (2 * a));
+            else return ((-this.b - Math.sqrt(getDiscriminant())) / (2 * this.a));
     }
 
     @Override
