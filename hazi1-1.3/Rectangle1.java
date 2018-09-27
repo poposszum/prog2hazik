@@ -15,15 +15,15 @@ public class Rectangle1 {
     }
 
     public double getArea(){
-        return width * height;
+        return this.width * this.height;
     }
 
     public double getPerimeter(){
-        return 2 * (width + height);
+        return 2 * (this.width + this.height);
     }
 
     @Override
     public String toString() {
-        return "Szélesség: " + width + " magasság: " + height + " terület: " + getArea() + " kerület: " + getPerimeter() + ".";
+        return "Szélesség: " + this.width + " magasság: " + this.height + " terület: " + getArea() + " kerület: " + getPerimeter() + ".";
     }
 }
