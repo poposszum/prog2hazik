@@ -2,6 +2,10 @@ package com.company;
 
 public class Circle extends GeometricShape {
     private double radius;
+    
+    public Circle(){
+        this.radius = 1;
+    }
 
     public Circle(double radius) {
         this.radius = radius;
