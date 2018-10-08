@@ -3,8 +3,8 @@ package com.company;
 public class Kocsma extends VendeglatoipariEgyseg {
     private String sorlap;
 
-    public Kocsma(String nev, int ferohelyekSzama, boolean dohanyzo, String sorlap) {
-        super(nev, ferohelyekSzama, dohanyzo);
+    public Kocsma(String nev, int ferohelyekSzama, String sorlap) {
+        super(nev, ferohelyekSzama, true);
         this.sorlap = sorlap;
     }
 
