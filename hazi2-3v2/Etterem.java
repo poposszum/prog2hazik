@@ -3,8 +3,8 @@ package com.company;
 public class Etterem extends VendeglatoipariEgyseg {
     private String etlap;
 
-    public Etterem(String nev, int ferohelyekSzama, boolean dohanyzo, String etlap) {
-        super(nev, ferohelyekSzama, dohanyzo);
+    public Etterem(String nev, int ferohelyekSzama, String etlap) {
+        super(nev, ferohelyekSzama, false);
         this.etlap = etlap;
     }
 
