@@ -9,9 +9,9 @@ public class Main {
     public static void main(String[] args) {
 	    VendeglatoipariEgyseg[] tomb = new VendeglatoipariEgyseg[3];
 
-	    tomb[0] = new Kocsma("Kocsma1",100,true, "feher");
-	    tomb[1] = new Kocsma("Kocsma2",150,true,"barna");
-	    tomb[2] = new Kocsma("Kocsma3",100,false,"palinka");
+	    tomb[0] = new Kocsma("Kocsma1",100,"feher");
+	    tomb[1] = new Kocsma("Kocsma2",150,"barna");
+	    tomb[2] = new Kocsma("Kocsma3",100,"palinka");
 
 	    Kocsma[] kcsma = AdottItaltKinaloKocsmak("feher",tomb);
 
